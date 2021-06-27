@@ -38,3 +38,26 @@ searchbtn.addEventListener("click", ()=>{
 		search.style.bottom='-200px'
 	}
 })
+
+
+// clickable calander
+calander = document.getElementById("calander");
+calanderinput = document.getElementById("calanderinput")
+calander.addEventListener("click", ()=>{
+	if(calanderinput.style.display == 'none'){
+		calanderinput.style.display = 'inline'
+	}else{
+		calanderinput.style.display = 'none'
+	}
+})
+
+// clickable notepad
+notepad = document.getElementById("notepad")
+notepadinput = document.getElementById("notepadinput")
+notepad.addEventListener("click", ()=>{
+	if(notepadinput.style.display=='none'){
+		notepadinput.style.display = "inline"
+	}else{
+		notepadinput.style.display = 'none'
+	}
+})

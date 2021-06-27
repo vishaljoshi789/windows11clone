@@ -13,7 +13,7 @@
 		<div class="taskbar">
 		<div class="center">
 			<div id="startbutton" class="startbtn">
-				<img src="src/windowslogo.png">
+				<img src="src/windowslogo.PNG">
 			</div>
 			<div id="searchbtn" class="startbtn">
 				<img style="margin-bottom: 5px;" src="src/search.png">
@@ -49,7 +49,7 @@
 					<img class="iconimg" src="src/edge.png">
 					<span>Microsoft Edge</span>
 				</div>
-				<div class="icon">
+				<div style="cursor: pointer;" class="icon" onclick="window.open('https://gmail.com/')">
 					<img class="iconimg" src="src/mail.png">
 					<span>Mail</span>
 				</div>
@@ -61,11 +61,12 @@
 					<img class="iconimg" src="src/paint.png">
 					<span>Paint</span>
 				</div>
-				<div class="icon">
+				<div id="calander" class="icon">
 					<img class="iconimg" src="src/calander.png">
 					<span>Calender</span>
+					<input id="calanderinput" style="display: none;" type="date" name="">
 				</div>
-				<div class="icon">
+				<div style="cursor: pointer;" onclick="window.open('https://www.microsoft.com/en-in/store/apps/windows')" class="icon">
 					<img class="iconimg" src="src/microsoftstore.png" style="width: 35px;">
 					<span>Microsoft Store</span>
 				</div>
@@ -86,12 +87,13 @@
 					<span>Calculator</span>
 				</div>
 				<div class="icon">
-					<img class="iconimg" src="src/videos.png">
+					<img class="iconimg" src="src/setting.png">
 					<span>Settings</span>
 				</div>
-				<div class="icon">
+				<div id="notepad" class="icon" style="cursor: pointer;">
 					<img style='width: 25px;' class="iconimg" src="src/notepad.png">
 					<span>Notepad</span>
+					<textarea id="notepadinput" style="display: none;" placeholder="Enter the text"></textarea>
 				</div>
 				<div class="icon">
 					<img style='width: 35px;height: 35px;' class="iconimg" src="src/vscode.png">
