@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Windows 11 Clone</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<video autoplay muted class="bgvideo">
+		<source src="src/bg.webm" type="video/webm">
+	</video>
+		<div class="taskbar">
+		<div class="center">
+			<div id="startbutton" class="startbtn">
+				<img src="src/windowslogo.png">
+			</div>
+			<div id="searchbtn" class="startbtn">
+				<img style="margin-bottom: 5px;" src="src/search.png">
+			</div>
+			<div class="taskbarbtn">
+				<img src="src/taskbar.png">
+			</div>
+			<div id="files" style="display: inline;cursor: pointer;">
+				<img style="height:35px;width: 35px;margin-bottom: 7px;" src="src/fileExplore.png">
+
+			</div>
+		</div>
+		<div class="right" style="display: flex;">
+			 <div><img src="src/taskbarrightleft.png"></div>
+			 <div id="datetime" style="display:flex;flex-direction: column; font-size: 12px;text-align: center;"></div>
+			 <div><img src="src/taskbarrightright.png"></div>
+
+		</div>
+
+	</div>
+
+	<div style="display:flex;width: 100vw;justify-content: center;"><div class="search"><input type="text" placeholder="Search" name="Search">
+	</div></div>
+	<div class="startmenucontainer">
+		<div class="startmenu">
+		<div class="upper">
+			<div class="uppertext">
+				<span style="font-weight: 650;">Pinned</span> 
+				<button>All apps   ></button>
+			</div>
+			<div class="icons">
+				<div class="icon">
+					<img class="iconimg" src="src/edge.png">
+					<span>Microsoft Edge</span>
+				</div>
+				<div class="icon">
+					<img class="iconimg" src="src/mail.png">
+					<span>Mail</span>
+				</div>
+				<div class="icon" id="fileExplore">
+					<img class="iconimg" src="src/fileExplore.png" style="width: 40px; height: 40px; margin: -5px;" >
+					<span>File Explorer</span>
+				</div>
+				<div class="icon">
+					<img class="iconimg" src="src/paint.png">
+					<span>Paint</span>
+				</div>
+				<div class="icon">
+					<img class="iconimg" src="src/calander.png">
+					<span>Calender</span>
+				</div>
+				<div class="icon">
+					<img class="iconimg" src="src/microsoftstore.png" style="width: 35px;">
+					<span>Microsoft Store</span>
+				</div>
+				<div class="icon">
+					<img class="iconimg" src="src/photos.png">
+					<span>Photos</span>
+				</div>
+				<div class="icon">
+					<img class="iconimg" src="src/videos.png">
+					<span>Videos</span>
+				</div>
+				<div class="icon">
+					<img style='width: 25px;' class="iconimg" src="src/alarms.png">
+					<span>Alarms</span>
+				</div>
+				<div class="icon">
+					<img class="iconimg" src="src/calculator.png">
+					<span>Calculator</span>
+				</div>
+				<div class="icon">
+					<img class="iconimg" src="src/videos.png">
+					<span>Settings</span>
+				</div>
+				<div class="icon">
+					<img style='width: 25px;' class="iconimg" src="src/notepad.png">
+					<span>Notepad</span>
+				</div>
+				<div class="icon">
+					<img style='width: 35px;height: 35px;' class="iconimg" src="src/vscode.png">
+					<span>VS Code</span>
+				</div>
+			</div>
+		</div>
+		<div class="lower">
+			<div class="uppertext">
+				<span style="font-weight: 650;">Recommended</span> 
+				<button>More   ></button>
+			</div>
+			<div class="moreicons"><img src="src/moreicons.png"></div>
+			<hr>
+			<div class="footer">
+				<div style="display:flex; align-items: center;">
+					<img src="src/profilelogo.png">
+					<span style="margin-left: 10px;">Vishal</span>
+				</div>
+				<img style="height: 30px;" src="src/signout.png">
+			</div>
+		</div>
+	</div>
+	</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
